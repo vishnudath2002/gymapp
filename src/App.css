@@ -1,0 +1,14 @@
+.not-paid-badge {
+    background-color: #ff0000 !important;  
+}
+
+.custom-navbar {
+    z-index: 1030; /* Bootstrap's default navbar z-index is 1030 */
+    background-color: #ffffff; /* White background color */
+}
+
+.custom-search {
+    z-index: 1029; /* Just below the navbar */
+    background-color: #ffffff; /* White background color */
+    position: relative; /* Needed for z-index to work */
+}
